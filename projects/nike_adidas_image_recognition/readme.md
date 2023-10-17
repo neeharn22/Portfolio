@@ -1,0 +1,17 @@
+# 🟡 Problem Statement
+
+The problem I am trying to solve is to accurately differentiate between merchandise belonging to Adidas or Nike. Simply, I am trying to separate if an item has an Adidas logo or Nike logo on it. This would be very useful for online retailers such as Finish line, Dick’s Sporting Goods, and more. The primary objective would be to ensure brand authenticity and improve customers’ online shopping experiences with products being in the right category, as image recognition enables effective brand-based categorization. Next, for retailers, manually updating stock items is a long and tedious process. Instead with computer vision or an image classification system, online retailers can update their stock or add new stock in the snap of a finger. Overall, implementing image classification will help increase time to market for online retailers and enahnced customer experience.
+
+# 📗 Key Learnings
+
+❗ 1) As mentioned at the top, I sort of expected this outcome. Firstly, a logo is such a small part of any merchandise. These days with the minimalistic fashion movement, they try to even hide the logo, so of course the model struggles, as even humans have a hard time deciphering what brand it is. Also coming to how adidas has two unique logos, it is also another huge challenge for the model. Maybe a classification of Adidas Originals vs. the standard Adidas logo might be a good classification problem to check as well.
+
+❗ 2) Looking at the accuracy and loss curves, over the 10 epochs, the model memorized the train partition, as can be seen from the train accuracy from the first graph. The validation accuracy peaks at the 8th epoch and then trails down. With an early stopping callback, the model would probably prune back to the 8th epoch as being the best.
+
+Looking at the validation loss, it only climbs and climbs. This is a big concern and I am not entirely sure why this is the case. However, we see training loss only decreases, as expected.
+
+Next, Looking at the classification report and confusion matrix above for the validation partition, we can see that this is not a great model. 60 predictions lie on the diagonal which is the only good sign. But 40 are predicted incorrectly. My model has a weighted F-1 of 0.6, which shows it doesn't do too well on recall or precision either. Overall, this model can be improved further with more data, better pre-processing of the images, and hyperparameter tuning!
+
+❗ 3) One thing I did to try to improve this model and capture the logos better was have an input image size of 224 x 224, which is something I saw online as a standard for images generally. I did this on purpose to try and let the model potentially catch the logos. However, to no avail, and in a future iteration I would pick even bigger image input sizes. Further, I think giving it more than 300 images per category would also help. Lastly, I also think adjusting the kernels would be something I would try next time as well. Maybe 32 initial kernels are too few, and next time starting with a larger number of kernels may help it capture more granular details.
+
+❗ 4) Overall, I am quite happy with my learnings and how this assignment turned out. It would probably drive me crazy to sit here and run this model for 5-6 hours, but in a future iteration or with better pre-processing of the images, it could potentailly yield better results. Still I am quite amazed that we can even convert images into simple numbers and have a model predict it! Super cool assignment!
