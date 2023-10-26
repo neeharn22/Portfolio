@@ -61,7 +61,7 @@ const About = () => {
                 >
                     <div ref={ref} className='max-w-[1000px] w-full px-4 grid sm:grid-cols-2 gap-8'>
                         <div className='sm:text-right text-4xl font-bold'>
-                            <p>About my projects. Take a look around.</p>
+                            <p>Driven, Passionate, and Meticulous.</p>
                         </div>
                         <div>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab et voluptas at accusamus hic minima numquam, incidunt voluptatum, quo fugiat quasi perspiciatis provident distinctio quas deserunt fuga eaque fugit deleniti.</p>
