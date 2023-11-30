@@ -64,7 +64,7 @@ const About = () => {
                             <p>Driven, Passionate, and Meticulous.</p>
                         </div>
                         <div>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab et voluptas at accusamus hic minima numquam, incidunt voluptatum, quo fugiat quasi perspiciatis provident distinctio quas deserunt fuga eaque fugit deleniti.</p>
+                            <p>Multi-faceted engineer with 4+ years of experience in the field. Hungry to hone his craft, collaborate, and apply theoretical and practical knowledge within the field - with best practices always in mind.</p>
                         </div>
                     </div>
                 </motion.div>
