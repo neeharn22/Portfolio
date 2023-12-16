@@ -52,27 +52,27 @@ const Navbar = () => {
             <div className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
                 <ul>
                     <li className='py-6 text-4xl hover:text-pink-600 duration-200'>
-                        <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+                        <Link onClick={handleClick} to="home" smooth={true} offset={-80}>
                             Home
                         </Link>
                     </li>
                     <li className='py-6 text-4xl hover:text-pink-600 duration-200'>
-                        <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+                        <Link onClick={handleClick} to="about" smooth={true} duration={500} offset={-80}>
                             About
                         </Link>
                     </li>
                     <li className='py-6 text-4xl hover:text-pink-600 duration-200'>
-                        <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
+                        <Link onClick={handleClick} to="skills" smooth={true} duration={500} offset={-80}>
                             Skills
                         </Link>
                     </li>
                     <li className='py-6 text-4xl hover:text-pink-600 duration-200'>
-                        <Link onClick={handleClick} to="work" smooth={true} duration={500}>
+                        <Link onClick={handleClick} to="work" smooth={true} duration={500} offset={-80}>
                             Work
                         </Link>
                     </li>
                     <li className='py-6 text-4xl hover:text-pink-600 duration-200'>
-                        <Link onClick={handleClick} to="projects" smooth={true} duration={500}>
+                        <Link onClick={handleClick} to="projects" smooth={true} duration={500} offset={-80}>
                             Projects
                         </Link>
                     </li>
