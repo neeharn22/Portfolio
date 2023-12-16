@@ -15,7 +15,7 @@ const About = () => {
 
     return (
         <div name='about' className='w-full h-screen bg-[#0a192f] text-gray-300'>
-            <div className='flex flex-col justify-center items-center w-full h-full'>
+            <div className='flex flex-col justify-center items-center w-full h-full overflow-hidden'>
                 <motion.div
                     variants={{
                         hidden: { opacity: 0, y: 75 },
@@ -25,7 +25,7 @@ const About = () => {
                     animate={mainControls}
                     transition={{ duration: 0.5, delay: 0.125 }}
                 >
-                    <div ref={ref} class="max-h-[650px] max-w-[500px] w-full mb-32 p-10">
+                    <div ref={ref} class="max-h-[650px] max-w-[500px] w-full md:mb-8 lg:mb-16 xl:mb-16 p-10">
                         <img class="rounded-full border-4 border-gray-100 shadow-md"
                             src={neehar} />
                     </div>
