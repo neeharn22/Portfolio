@@ -1,5 +1,4 @@
 import React from 'react'
-import Placeholder from '../assets/jesse.png'
 import UW from '../assets/University-of-Wisconsin-Logo-2001.png'
 import UConn from '../assets/uconn-logo-png-transparent.png'
 import SQL from '../assets/sql.png'
@@ -75,8 +74,8 @@ const Skills = () => {
                 </div>
 
                 <div>
-                    <li className='mb-4'><strong>Bachelor of Science in Mechanical Engineering</strong> - University of Wisconsin-Madison (3.6/4.0 GPA)</li>
-                    <li className='mb-4'><strong>Master of Science in Business Analytics and Project Management</strong> - University of Connecticut (4.0/4.0 GPA)</li>
+                    <li className='mb-4 cursor-auto hover:cursor-auto'><strong>Bachelor of Science in Mechanical Engineering</strong> - University of Wisconsin-Madison (3.6/4.0 GPA)</li>
+                    <li className='mb-4 cursor-auto hover:cursor-auto'><strong>Master of Science in Business Analytics and Project Management</strong> - University of Connecticut (4.0/4.0 GPA)</li>
                     <div class="flex justify-center p-4">
                         <img src={UW} class="w-1/2 mr-2 md:mr-12 lg:mr-16 xl:mr-24 max-w-[420px] max-h-[250px]" />
                         <img src={UConn} class="w-1/2 max-w-[250px] max-h-[250px]" />
