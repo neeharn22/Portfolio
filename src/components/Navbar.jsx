@@ -11,7 +11,13 @@ const Navbar = () => {
     return (
         <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#050A30] text-white'>
             <div>
-                NN logo
+                <ul className='hidden md:flex'>
+                    <li className='hover:text-pink-600 duration-200 font-[bangers] text-5xl'>
+                        <Link to="home" smooth={true} duration={500}>
+                            NN
+                        </Link>
+                    </li>
+                </ul>
             </div>
 
             {/* Menu */}
