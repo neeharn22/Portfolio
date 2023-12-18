@@ -1,5 +1,4 @@
 import React from 'react'
-import Jesse from '../assets/jesse.png'
 import Mercedes from '../assets/mercedes.jpg'
 import Cardinal from '../assets/cardinal.jpg'
 import CITI from '../assets/CITI.png'
@@ -24,13 +23,13 @@ const Work = () => {
                                 Business Specialist/Analyst - Connecticut Information Technology Institute
                             </span>
                             <div className='pt-2 text-left text-sm h-full'>
-                                <li className='cursor-auto hover:cursor-auto'>Conducted extensive data cleaning and wrangling for a database containing 5000+ records of registrar of voters (ROV), meticulously 
-addressing missing values and ensuring data integrity, resulting in improved accuracy and reliability of voter information.</li>
-                                <li className='cursor-auto hover:cursor-auto'>Queried a comprehensive data consolidation effort by extracting, cleansing, and wrangling information from more than 10 disparate 
-sources, seamlessly integrating data to provide a consolidated view of active and inactive registrar of voters along with their completed 
-sections and respective completion dates, all presented in a user-friendly format for client requests.</li>
-                                <li className='cursor-auto hover:cursor-auto'>Identified and rectified discrepancies in payments for ROV courses, successfully recovering over $10,000 in missing payments, 
-showcasing strong analytical skills and a commitment to financial accuracy and accountability.</li>
+                                <li className='cursor-auto hover:cursor-auto'>Conducted extensive data cleaning and wrangling for a database containing 5000+ records of registrar of voters (ROV), meticulously
+                                    addressing missing values and ensuring data integrity, resulting in improved accuracy and reliability of voter information.</li>
+                                <li className='cursor-auto hover:cursor-auto'>Queried a comprehensive data consolidation effort by extracting, cleansing, and wrangling information from more than 10 disparate
+                                    sources, seamlessly integrating data to provide a consolidated view of active and inactive registrar of voters along with their completed
+                                    sections and respective completion dates, all presented in a user-friendly format for client requests.</li>
+                                <li className='cursor-auto hover:cursor-auto'>Identified and rectified discrepancies in payments for ROV courses, successfully recovering over $10,000 in missing payments,
+                                    showcasing strong analytical skills and a commitment to financial accuracy and accountability.</li>
                             </div>
                         </div>
                     </div>
