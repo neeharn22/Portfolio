@@ -16,7 +16,7 @@ import DataVisualization from '../assets/datavisualization.png'
 
 const Skills = () => {
     return (
-        <div name='skills' className='w-full sm:max-h-[1600px] md:h-[1000px] bg-[#003060] text-gray-300'>
+        <div name='skills' className='w-full sm:max-h-[1600px] md:h-screen bg-[#003060] text-gray-300'>
             {/* Container */}
             <div className='max-w-[1400px] mx-auto p-4 flex flex-col justify-center w-full md:h-full sm:max-h-[1600px] overflow-auto'>
                 <div>
