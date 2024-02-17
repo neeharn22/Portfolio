@@ -2,11 +2,7 @@ import React from 'react'
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-
-const handleURLClick = (url) => {
-    // Handle the click action, for example, navigate to a new page.
-    window.open(url, '_blank');
-};
+import UtilityMethods from '../util/UtilityMethods';
 
 const Contact = () => {
     return (
@@ -18,7 +14,7 @@ const Contact = () => {
                 </div>
 
                 <div className='grid sm:grid-cols-2 gap-6'>
-                    <div onClick={() => handleURLClick('https://www.linkedin.com/in/neeharnamjoshi/')} class="grid grid-cols-3 bg-white flex items-center justify-center rounded-tl-xl rounded-tr-lg rounded-bl-xl rounded-br-lg h-[80px] text-black cursor-pointer">
+                    <div onClick={() => UtilityMethods.handleURLClick('https://www.linkedin.com/in/neeharnamjoshi/')} class="grid grid-cols-3 bg-white flex items-center justify-center rounded-tl-xl rounded-tr-lg rounded-bl-xl rounded-br-lg h-[80px] text-black cursor-pointer">
                         <div class='col-span-1 flex items-center justify-center h-full rounded-tl-lg rounded-tr-none rounded-bl-lg rounded-br-none bg-blue-600'>
                             <FaLinkedin color='white' size={60} />
                         </div>
@@ -27,7 +23,7 @@ const Contact = () => {
                         </div>
                     </div>
 
-                    <div onClick={() => handleURLClick('https://github.com/neeharn22')} class="grid grid-cols-3 bg-gray-300 flex items-center justify-center rounded-tl-xl rounded-tr-lg rounded-bl-xl rounded-br-lg h-[80px] text-black cursor-pointer">
+                    <div onClick={() => UtilityMethods.handleURLClick('https://github.com/neeharn22')} class="grid grid-cols-3 bg-gray-300 flex items-center justify-center rounded-tl-xl rounded-tr-lg rounded-bl-xl rounded-br-lg h-[80px] text-black cursor-pointer">
                         <div class='col-span-1 flex items-center justify-center h-full rounded-tl-lg rounded-tr-none rounded-bl-lg rounded-br-none bg-black'>
                             <FaGithub color='white' size={60} />
                         </div>
@@ -36,7 +32,7 @@ const Contact = () => {
                         </div>
                     </div>
 
-                    <div onClick={() => handleURLClick('mailto:neehar.namjoshi@uconn.edu')} class="grid grid-cols-3 bg-[#99b08b] flex items-center justify-center rounded-tl-xl rounded-tr-lg rounded-bl-xl rounded-br-lg h-[80px] text-black cursor-pointer">
+                    <div onClick={() => UtilityMethods.handleURLClick('mailto:neehar.namjoshi@uconn.edu')} class="grid grid-cols-3 bg-[#99b08b] flex items-center justify-center rounded-tl-xl rounded-tr-lg rounded-bl-xl rounded-br-lg h-[80px] text-black cursor-pointer">
                         <div class='col-span-1 flex items-center justify-center h-full rounded-tl-lg rounded-tr-none rounded-bl-lg rounded-br-none bg-[#6fc2b0]'>
                             <HiOutlineMail color='white' size={60} />
                         </div>
@@ -45,7 +41,7 @@ const Contact = () => {
                         </div>
                     </div>
 
-                    <div class="grid grid-cols-3 bg-[#c2ba65] flex items-center justify-center rounded-tl-xl rounded-tr-lg rounded-bl-xl rounded-br-lg h-[80px] text-black cursor-pointer">
+                    <div onClick={() => UtilityMethods.handleURLClick('https://neehar-namjoshi-portfolio.s3.amazonaws.com/misc_assets/neehar_namjoshi_resume.pdf')} class="grid grid-cols-3 bg-[#c2ba65] flex items-center justify-center rounded-tl-xl rounded-tr-lg rounded-bl-xl rounded-br-lg h-[80px] text-black cursor-pointer">
                         <div class='col-span-1 flex items-center justify-center h-full rounded-tl-lg rounded-tr-none rounded-bl-lg rounded-br-none bg-[#947b48]'>
                             <BsFillPersonLinesFill color='white' size={60} />
                         </div>

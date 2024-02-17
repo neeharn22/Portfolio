@@ -12,9 +12,9 @@ const Navbar = () => {
         <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#050A30] text-white'>
             <div>
                 <ul className='hidden md:flex'>
-                    <li className='hover:text-pink-600 duration-200 font-[bangers] text-5xl'>
+                    <li className='hover:text-pink-600 duration-200 font-[kalam] text-2xl'>
                         <Link to="home" smooth={true} duration={500}>
-                            NN
+                            Neehar Namjoshi
                         </Link>
                     </li>
                 </ul>
@@ -114,7 +114,7 @@ const Navbar = () => {
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-                        <a className='flex justify-between items-center w-full text-gray-300' href="/">
+                        <a className='flex justify-between items-center w-full text-gray-300' href="https://neehar-namjoshi-portfolio.s3.amazonaws.com/misc_assets/neehar_namjoshi_resume.pdf">
                             Resume <BsFillPersonLinesFill size={30} />
                         </a>
                     </li>

@@ -62,7 +62,7 @@ const About = () => {
                         </div>
                         <div>
                             <p>
-Results-driven aspiring business analyst with a background in mechanical engineering. I blend strong analytical skills with practical problem-solving, leveraging my engineering expertise for data-driven insights. Proficient in tools like SQL, R, Excel, PowerBI, and Python - I am eager to contribute my quantitative foundation to optimize processes and enhance organizational efficiency.</p>
+                                Results-driven aspiring business analyst with a background in mechanical engineering. I blend strong analytical skills with practical problem-solving, leveraging my engineering expertise for data-driven insights. Proficient in tools like SQL, PowerBI, and Python - I am eager to contribute my quantitative foundation to optimize processes and enhance organizational efficiency.</p>
                         </div>
                     </div>
                 </motion.div>

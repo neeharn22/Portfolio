@@ -2,7 +2,7 @@ import React from 'react'
 import Mercedes from '../assets/mercedes.jpg'
 import Cardinal from '../assets/cardinal.jpg'
 import CITI from '../assets/CITI.png'
-import Flex from '../assets/flex.png'
+import Flex from '../assets/azumo.png'
 
 const Work = () => {
     return (
