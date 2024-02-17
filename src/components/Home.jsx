@@ -13,7 +13,7 @@ const Home = () => {
                 <h1 className='text-4xl sm:text-7xl font-bold text-[#ffffff]'>Neehar Namjoshi</h1>
                 <div className='text-4xl sm:text-7xl font-bold text-[#8892b0] flex'>
                     <h2>I am a </h2>
-                    <h2 className='ml-4 border-b-4 border-pink-600'>{<Typewriter options={{ strings: ['Mech. Engineer.', 'Business Analyst.', 'Patent Engineer.', 'QA Engineer.', 'Project Manager.', 'Web Developer.'], autoStart: true, loop: true }} />}</h2>
+                    <h2 className='ml-4 border-b-4 border-pink-600'>{<Typewriter options={{ strings: ['Data Analyst.', 'Business Analyst.', 'Mech. Engineer.', 'Patent Engineer.', 'QA Engineer.', 'Web Developer.'], autoStart: true, loop: true }} />}</h2>
                 </div>
                 <p className='text-[#8892b0] py-4 max-w-[700px] '></p>
                 <div>

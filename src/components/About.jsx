@@ -14,8 +14,8 @@ const About = () => {
     }, [isInView])
 
     return (
-        <div name='about' className='w-full h-screen bg-[#0a192f] text-gray-300'>
-            <div className='flex flex-col justify-center items-center w-full h-full'>
+        <div name='about' className='w-full sm:max-h-[1600px] md:h-screen bg-[#0a192f] text-gray-300'>
+            <div className='flex flex-col justify-center items-center w-full md:h-full sm:max-h-[1600px] overflow-hidden'>
                 <motion.div
                     variants={{
                         hidden: { opacity: 0, y: 75 },
@@ -25,8 +25,8 @@ const About = () => {
                     animate={mainControls}
                     transition={{ duration: 0.5, delay: 0.125 }}
                 >
-                    <div ref={ref} class="max-h-[650px] max-w-[500px] w-full mb-32 p-10">
-                        <img class="rounded-full border-4 border-gray-100 shadow-md"
+                    <div ref={ref} class="max-h-[650px] max-w-[500px] w-full md:mb-8 lg:mb-16 xl:mb-16 p-10">
+                        <img className="rounded-full border-4 border-gray-100 shadow-md"
                             src={neehar} />
                     </div>
                 </motion.div>
@@ -40,12 +40,9 @@ const About = () => {
                     animate={mainControls}
                     transition={{ duration: 0.5, delay: 0.25 }}
                 >
-                    <div ref={ref} className='max-w-[1000px] w-full px-4 grid grid-cols-2 gap-8'>
-                        <div className='sm:text-right pb-8 pl-4'>
+                    <div ref={ref} className='max-w-[1000px] w-full px-4 justify-center'>
+                        <div className='pb-8'>
                             <p className='text-4xl font-bold inline border-b-4 border-pink-600'>About</p>
-                        </div>
-                        <div>
-
                         </div>
                     </div>
                 </motion.div>
@@ -59,12 +56,13 @@ const About = () => {
                     animate={mainControls}
                     transition={{ duration: 0.5, delay: 0.5 }}
                 >
-                    <div ref={ref} className='max-w-[1000px] w-full px-4 grid sm:grid-cols-2 gap-8'>
+                    <div ref={ref} className='max-w-[1000px] w-full px-4 grid sm:grid-cols-2 gap-8 pb-4'>
                         <div className='sm:text-right text-4xl font-bold'>
                             <p>Driven, Passionate, and Meticulous.</p>
                         </div>
                         <div>
-                            <p>Multi-faceted engineer with 4+ years of experience in the field. Hungry to hone his craft, collaborate, and apply theoretical and practical knowledge within the field - with best practices always in mind.</p>
+                            <p>
+Results-driven aspiring business analyst with a background in mechanical engineering. I blend strong analytical skills with practical problem-solving, leveraging my engineering expertise for data-driven insights. Proficient in tools like SQL, R, Excel, PowerBI, and Python - I am eager to contribute my quantitative foundation to optimize processes and enhance organizational efficiency.</p>
                         </div>
                     </div>
                 </motion.div>
